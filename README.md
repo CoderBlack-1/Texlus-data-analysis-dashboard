@@ -1,16 +1,53 @@
-# Texlus-data-analysis-dashboard
-Sales Data Analysis &amp; Dashboard | Excel + Python (pandas, matplotlib)  End-to-end data analysis project transforming raw sales transactions into actionable insights. Includes Excel pivot tables, interactive dashboards, and Python visualizations with KPIs (Revenue, Profit, Margins).
+# Sales Data Analysis & Dashboard
 
-This project demonstrates the complete workflow of a Data Analyst:
+## Project Overview
+This project demonstrates a complete **data analysis workflow** using Excel and Python on a company’s sales dataset.  
+The workflow starts with raw Excel data, summarized using Pivot Tables, and then visualized in both **Excel Dashboards** and **Python (pandas + matplotlib)**.
 
-Cleaning and structuring unstructured sales data in Excel
+This project showcases how raw sales data can be transformed into meaningful business insights and dashboards.
 
-Summarizing with Pivot Tables
+---
 
-Building an Excel dashboard with slicers & KPIs
+## Dataset
+- **File:** `Unstructured Dataset WORKING.xlsx`
+- **Sheets:**
+  - `Data table` → Raw sales transactions (date, client, department, city, payment, revenue, profit, margin).
+  - `Pivot Table` → Aggregated department & payment analysis.
+  - `DASHBOARD` → Excel dashboard with slicers & visuals.
 
-Reproducing the analysis programmatically using Python (pandas & matplotlib)
+---
 
-Visual storytelling with KPIs: Total Revenue, Profit, and Profit Margin
+## Tools & Technologies
+- **Excel:** Data cleaning, pivot tables, dashboard slicers.  
+- **Python:** Data analysis & visualization.  
+  - Libraries: `pandas`, `matplotlib`  
+- **GitHub:** Version control & project showcase.  
 
-The repository includes the raw dataset, Jupyter Notebook analysis, chart scripts, and a polished README with visual dashboards.
+---
+
+## KPIs Tracked
+- **Total Revenue**  
+- **Total Profit** 
+- **Average Profit Margin**  
+- **Revenue by Department**  
+- **Revenue by Payment Method**  
+
+---
+
+## Dashboard (Python Version)
+
+### Revenue & Profit by Department
+![Revenue & Profit](images/revenue_profit_by_department.png)
+
+### Revenue Distribution by Payment Method
+![Revenue by Payment](images/revenue_by_payment.png)
+
+### Average Profit Margin by Department
+![Profit Margin](images/profit_margin_by_department.png)
+
+---
+
+## Key Insights
+1. **Revenue Drivers:** Strategy and Operations departments generate the highest revenue.  
+2. **Payment Methods:** Transfers dominate as the preferred payment method, followed by PayPal.  
+3. **Profitability:** Some departments achieve higher profit margins despite lower revenue, highlighting efficiency differences.  
